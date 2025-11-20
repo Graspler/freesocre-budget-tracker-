@@ -1,0 +1,68 @@
+BUDGET TRACKER - EXAMPLE USAGE
+================================
+
+This file shows an example session using the Budget Tracker.
+
+Step 1: Run the program
+-----------------------
+$ python budget_tracker.py
+
+Step 2: Add some income
+-----------------------
+Choose option 1
+Enter amount: 500
+Enter description: Monthly allowance
+
+Result: Income of £500.00 added successfully!
+        New balance: £500.00
+
+Step 3: Add an expense
+----------------------
+Choose option 2
+Enter amount: 45.50
+Enter description: School supplies
+
+Result: Expense of £45.50 added successfully!
+        New balance: £454.50
+
+Step 4: Add another expense
+---------------------------
+Choose option 2
+Enter amount: 20
+Enter description: Cinema ticket
+
+Result: Expense of £20.00 added successfully!
+        New balance: £434.50
+
+Step 5: View all transactions
+------------------------------
+Choose option 4
+
+Result:
+========================================
+TRANSACTION HISTORY
+========================================
+1. INCOME: +£500.00 - Monthly allowance
+2. EXPENSE: -£45.50 - School supplies
+3. EXPENSE: -£20.00 - Cinema ticket
+========================================
+
+Step 6: View summary
+--------------------
+Choose option 5
+
+Result:
+========================================
+BUDGET SUMMARY
+========================================
+Total Income:    £500.00
+Total Expenses:  £65.50
+Current Balance: £434.50
+========================================
+
+Step 7: Exit
+------------
+Choose option 6
+
+Result: Thank you for using Budget Tracker!
+        Goodbye!
